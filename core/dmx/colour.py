@@ -38,9 +38,9 @@ class Colour:
 
     def __init__(self, red: int, green: int, blue: int):
         """Initialise the colour."""
-        self._red = red
-        self._green = green
-        self._blue = blue
+        self.red = red
+        self.green = green
+        self.blue = blue
 
     def serialise(self) -> List[int]:
         """Serialise the colour in RGB order to a sequence of bytes."""
